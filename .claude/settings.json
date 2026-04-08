@@ -1,9 +1,22 @@
 {
+  "permissions": {
+    "allow": [
+      "Bash(*)",
+      "WebSearch(*)",
+      "WebFetch(*)",
+      "Read(*)",
+      "Write(*)",
+      "Edit(*)",
+      "Glob(*)",
+      "Grep(*)"
+    ]
+  },
   "sandbox": {
     "network": {
       "allowedDomains": [
         "npm.registry.com",
-        "us.i.posthog.com"
+        "us.i.posthog.com",
+        "api.themoviedb.org"
       ]
     }
   }
